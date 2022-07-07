@@ -1,0 +1,19 @@
+{
+  "cwd": "C:\\Users\\User-PC\\Desktop\\framework7-react-sample",
+  "type": [
+    "web"
+  ],
+  "name": "Litava-dream",
+  "framework": "react",
+  "template": "tabs",
+  "cssPreProcessor": false,
+  "bundler": "vite",
+  "theming": {
+    "customColor": true,
+    "color": "#008080",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
