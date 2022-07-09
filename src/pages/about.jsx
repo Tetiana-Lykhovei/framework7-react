@@ -59,13 +59,16 @@ const AboutPage = (props) => {
           ></ListItem>{" "}
           <ListItem title="Region" after={currentCountry.region}></ListItem>
           <ListItem
-            title="Subegion"
+            title="Subregion"
             after={currentCountry.subregion}
           ></ListItem>
-          <ListItem title="Total Area" after={currentCountry.area}></ListItem>
+          <ListItem
+            title="Total Area"
+            after={currentCountry.area.toLocaleString("en-US")}
+          ></ListItem>
           <ListItem
             title="Population"
-            after={currentCountry.population}
+            after={currentCountry.population.toLocaleString("en-US")}
           ></ListItem>
           <ListItem
             title="Start of week"

@@ -33,11 +33,17 @@ const HomePage = () => (
       </NavLeft>
       <NavTitle sliding>Litava-dream</NavTitle>
 
-      <NavTitleLarge>Litava's dream</NavTitleLarge>
+      <NavTitleLarge
+        style={{
+          fontFamily: "cursive",
+          color: "teal",
+        }}
+      >
+        Discover the world
+      </NavTitleLarge>
     </Navbar>
 
     <Swiper
-      paginaion
       navigation
       scrollbar
       effect={"coverflow"}
@@ -110,7 +116,7 @@ const HomePage = () => (
           f7.store.dispatch("getCountries");
         }}
       >
-        I want to know!
+        I want to discover!
       </Button>
     </Block>
   </Page>
